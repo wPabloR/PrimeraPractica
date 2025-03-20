@@ -1,0 +1,71 @@
+body{
+    font-family: "Helvetica";
+    background: grey;
+    margin: 0;
+}
+
+
+.page_header{
+    border-color: grey;
+    background: white;
+    overflow: hidden;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+section{
+    height: 500px;
+    border: 1px solid grey;
+    background: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.post_title{
+    overflow: hidden;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title_container h2{
+    font-size: 18px;
+}
+
+
+
+.numero{
+    margin-right: 10px;
+    color: blue;
+}
+
+
+.image_container{
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    border: 1px 1px;
+    text-align: center;
+}
+
+.image_footer{
+    padding: 3px 20px;
+    font-size: 90%;
+}
+
+
+img{
+    width: 600px;
+}
