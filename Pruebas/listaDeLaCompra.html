@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <h1>Mi Lista de Compras</h1>
+        <div class="controls">
+            <input type="text" id="itemInput" placeholder="Ej: Leche" />
+            <input type="number" id="quantityInput" placeholder="Cantidad" min="1" />
+            <button id="addBtn">Añadir</button>
+        </div>
+        <ul id="shoppingList"></ul>
+        <div id="filters">
+            <button id="showAll">Todos</button>
+            <button id="showCompleted">Completados</button>
+            <button id="showPending">Pendientes</button>
+        </div>
+
+        <div class="stats">
+            <p>Total items: <span id="totalItems">0</span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
